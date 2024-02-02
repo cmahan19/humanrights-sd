@@ -61,7 +61,7 @@
               <v-icon>mdi-email</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <a href="mailto:info@my-company.com">contact@dama-sd.com</a>
+              <a href="mailto:info@my-company.com">contact@humanrights-sd.org</a>
             </v-list-item-content>
           </v-list-item>
           <v-list-item>
@@ -77,7 +77,7 @@
               <v-icon>mdi-facebook</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <a href="https://www.facebook.com/my-company-page">Facebook</a>
+              <a href="https://www.facebook.com/human.rights.south.dakota/" target="_blank">Facebook</a>
             </v-list-item-content>
           </v-list-item>
           <v-list-item>
@@ -85,15 +85,15 @@
               <v-icon>mdi-twitter</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <a href="https://www.twitter.com/my-company-page">Twitter</a>
+              <a href="https://www.twitter.com/HumanRights_SD" target="_blank">Twitter</a>
             </v-list-item-content>
           </v-list-item>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-linkedin</v-icon>
+              <v-icon>mdi-instagram</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <a href="https://www.linkedin.com/company/my-company">LinkedIn</a>
+              <a href="https://www.instagram.com/humanrights_sd/" target="_blank">Instagram</a>
             </v-list-item-content>
           </v-list-item>
         </v-list>
@@ -144,7 +144,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'DAMA-South Dakota'
+      title: 'Human Rights South Dakota'
     }
   }
 }

@@ -4,210 +4,214 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12">
-          <v-carousel height="400" width="100%" :cycle="true">
-  <v-carousel-item>
-    <img src="@/assets/images/aaa.jpg" alt="Image 1" class="flex-shrink-0">
-
-    <v-overlay>
-      <v-container fluid>
-              <v-card-text  class="text-center">
-                <h1 :style="{ fontSize: '36px'}">DAMA South Dakota</h1>
-                <p :style="{ marginTop: '10px' }">The DAMA South Dakota Chapter is dedicated to providing education, networking, and support to data management professionals in South Dakota.</p>
-              </v-card-text>
-      </v-container>
-    </v-overlay>
-  </v-carousel-item>
+          <v-carousel height="300" width="100%" :cycle="true">
 
             <v-carousel-item>
-              <img src="@/assets/images/bhbh.jpg" alt="Image 2" class="flex-shrink-0">
+              <img src="@/assets/images/joining.jpg" alt="Image 1" class="flex-shrink-0" width="100%" height="100%" object-fit="cover">
+              <v-overlay>
+                <v-container fluid>
+                  <v-card-text class="text-center">
+                    <div class="h1-container">
+                        <span>Human Rights</span>
+                        <span>South Dakota</span>
+                      </div>
+                    <p :style="{ marginTop: '10px' }">We are a welcoming and inclusive community. Every human is entitled to rights and freedoms, without distinction of any kind.</p>
+                    <v-btn color="primary" dark class="mx-auto">Join Us</v-btn>
+                  </v-card-text>
+                </v-container>
+              </v-overlay>
+            </v-carousel-item>
+
+            <v-carousel-item>
+              <img src="@/assets/images/holding.jpg" alt="Image 1" class="flex-shrink-0" width="100%" height="100%" object-fit="cover">
+              <v-overlay>
+                <v-container fluid>
+                  <v-card-text class="text-center">
+                    <div class="h1-container">
+                        <span>Human Rights</span>
+                        <span>South Dakota</span>
+                      </div>
+                    <p :style="{ marginTop: '10px' }">In Dignity, Freedom and Justice for all Stand up for Human Rights.</p>
+                    <v-btn color="primary" dark class="mx-auto">Join Us</v-btn>
+                  </v-card-text>
+                </v-container>
+              </v-overlay>
             </v-carousel-item>
             <v-carousel-item>
-              <img src="@/assets/images/fish.jpg" alt="Image 3" class="flex-shrink-0">
+              <img src="@/assets/images/crowd.jpg" alt="Image 1" class="flex-shrink-0" width="100%" height="100%" object-fit="cover">
+              <v-overlay>
+                <v-container fluid>
+                  <v-card-text class="text-center">
+                    <div class="h1-container">
+                        <span>Human Rights</span>
+                        <span>South Dakota</span>
+                      </div>
+                    <p :style="{ marginTop: '10px' }">Your voice matters. Get involved in human rights for all in South Dakota.</p>
+                    <v-btn color="primary" dark class="mx-auto">Join Us</v-btn>
+                  </v-card-text>
+                </v-container>
+              </v-overlay>
             </v-carousel-item>
-            <v-carousel-item>
-              <img src="@/assets/images/sdsd.jpg" alt="Image 4" class="flex-shrink-0">
-            </v-carousel-item>
+
           </v-carousel>
         </v-col>
       </v-row>
 
       <v-row>
   <v-col cols="12">
-    <v-card :style="{ display: 'flex', flex: 1 }">
-      <v-card-image width="100%">
-        <img src="@/assets/images/dwheel.jpg" alt="DAMA wheel" >
-      </v-card-image>
+    <v-card class="dama-wheel-card" style="display: flex; flex: 1">
+      <v-container>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RBiA_7yU0nc?rel=0" frameborder="0" allowfullscreen id="player"></iframe>
+      </v-container>
 
       <v-card-text>
-        <h1>DAMA Wheel</h1>
-        <p :style="{ marginTop: '20px' }">The DAMA Wheel is a model that describes the data management knowledge and skills required for data management professionals in 12 sections: Data Architecture, Data Governance & Quality, Data Security, Data Modeling & Design, Data Warehousing & Business Intelligence, Data Analytics, Data Integration, Data Stewardship, Data Engineering, Data Science, 
-          Data Ethics, Data Literacy, and Data Culture.</p>
-          <p>The DAMA Wheel is a valuable resource for data professionals of all levels, and it can be used to assess one's current skills and knowledge, identify areas for improvement, and develop a plan for professional development.
+        <span>Human Rights</span>
+        <span>South Dakota</span>
+        <p style="margin-top: 20px">
+          The <a href="https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf" target="_blank">Universal Declaration of Human Rights (UDHR)</a> is a milestone document in the history of human rights. Drafted by representatives with different legal and cultural backgrounds from all regions of the world, 
+          the Declaration was proclaimed by the United Nations General Assembly in Paris on 10 December 1948 by General Assembly resolution 217 A (III) as a common standard of achievements for all peoples and all nations. It sets out, for the first time, fundamental human rights to be universally protected. 
+          Since its adoption in 1948, the UDHR has been translated into more than 500 languages - the most translated document in the world - and has inspired the constitutions of many newly independent States and many new democracies. The UDHR, together with the International Covenant on Civil and Political 
+          Rights and its two Optional Protocols (on the complaints procedure and on the death penalty) and the International Covenant on Economic, Social and Cultural Rights and its Optional Protocol, form the so-called International Bill of Human Rights.
         </p>
+        <v-btn color="primary" dark class="mx-auto">Join Us</v-btn>
       </v-card-text>
     </v-card>
   </v-col>
 </v-row>
 
 <v-row>
-  <v-col cols="12">
-    <v-card>
-      <v-card-title>Member Benefits</v-card-title>
-      <v-card-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, qui! Impedit eos aut modi quam necessitatibus commodi expedita quis, inventore ullam iste dolore! Minus quisquam laudantium quaerat quidem delectus illo.</v-card-text>
-    <v-row>
-      <v-col cols="4">
-        <v-card class="flex flex-wrap">
-          <v-card-title>Student</v-card-title>
-          <v-card-text>
-            <ul>
-              <li>Discounted membership fees</li>
-              <li>Access to student-only events and resources</li>
-              <li>Mentorship opportunities from experienced professionals</li>
-            </ul>
-          </v-card-text>
-          <v-card__actions>
-            <div class="flex align-self-center">
-              <v-btn color="red" type="submit" class="mx-auto">Sign Up</v-btn>
-            </div>
-          </v-card__actions>
-        </v-card>
-      </v-col>
-      <v-col cols="4">
-        <v-card class="flex flex-wrap">
-          <v-card-title>Personal</v-card-title>
-          <v-card-text>
-            <ul>
-              <li>Access to all member benefits</li>
-              <li>Networking opportunities with other data professionals</li>
-              <li>Discounts on training and certification programs</li>
-            </ul>
-          </v-card-text>
-          <v-card__actions>
-            <div class="flex align-self-center">
-              <v-btn color="red" type="submit" class="mx-auto">Sign Up</v-btn>
-            </div>
-          </v-card__actions>
-        </v-card>
-      </v-col>
-      <v-col cols="4">
-        <v-card class="flex flex-wrap">
-          <v-card-title>Business</v-card-title>
-          <v-card-text>
-            <ul>
-              <li>All the benefits of a personal membership</li>
-              <li>Group discounts for your team</li>
-              <li>Access to exclusive business resources</li>
-            </ul>
-          </v-card-text>
-          <v-card__actions>
-            <div class="flex align-self-center">
-              <v-btn color="red" type="submit" class="mx-auto">Sign Up</v-btn>
-            </div>
-          </v-card__actions>
-        </v-card>
-      </v-col>
-    </v-row>
-  </v-card>
-  </v-col>
-</v-row>
-
-      <v-row>
         <v-col cols="12">
-          <v-card class="flex flex-wrap">
-            <v-card-title>DAMA-South Dakota Events</v-card-title>
-              <v-card-text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus blanditiis libero repellendus iure eveniet ab harum delectus ea dicta. Similique nam voluptates repellat fugiat, praesentium hic iusto aut dolorum possimus.</v-card-text>
-              <v-subheader>Upcoming Events</v-subheader>
-              <v-calendar :events="eventList">
-                <v-for="event in eventList" :key="event.name" :name="event.name" :start="event.start" :end="event.end"
-                  :location="event.location" :description="event.description" />
-                <!-- <v-link :href="event.registerLink">Register</v-link> -->
-                <template v-if="eventList.length === 0">
-                  <p>There are no upcoming events.</p>
-                </template>
-              </v-calendar>
-           
+          <v-card>
+            <v-card-title>Become a Member</v-card-title>
+            <v-card-text>
+  <p>Human Rights South Dakota is a non-profit organization that works to promote and protect human rights for all South Dakotans. We are dedicated to creating a more just and equitable society where everyone has the opportunity to thrive.</p>
+
+  <p>There are many reasons why you should become a member of Human Rights South Dakota. Here are just a few:</p>
+
+  <ul>
+    <li>Stay informed</li>
+    <li>Get involved</li>
+    <li>Make a difference</li>
+    <li>Be a part of a community of people who care about human rights</li>
+    <li>Make your voice heard</li>
+    <li>Get involved in local human rights efforts</li>
+  </ul>
+
+  <p>Here are some specific examples of the work that Human Rights South Dakota does:</p>
+
+  <ul>
+    <li>Advocating for legislation and policies that protect human rights</li>
+    <li>Educating the public about human rights</li>
+    <li>Providing support to victims of human rights abuses</li>
+  </ul>
+
+  <p>If you are committed to promoting and protecting human rights, then I encourage you to become a member of Human Rights South Dakota. Your membership will help us to continue our important work and make a difference in the lives of South Dakotans.</p>
+
+  <v-btn color="primary" dark class="mx-auto">Join Us</v-btn>
+</v-card-text>
+
           </v-card>
         </v-col>
       </v-row>
 
       <v-row>
         <v-col cols="12">
-          <v-card>
-            <v-card-title>Meet The DAMA-South Dakota Board Members</v-card-title>
-          <v-carousel height="300" width="100%" :cycle="true">
+          <v-card class="flex flex-wrap">
+            <v-card-title>Events</v-card-title>
+            <v-card-text>
+              <p>Are you passionate about human rights? Do you believe that everyone deserves to be treated with dignity and respect? If so, then we invite you to join us for a series of events focused on promoting human rights in South Dakota.</p>
 
-  <v-carousel-item>
-    <v-card :style="{ display: 'flex', flex: 1 }">
-      <v-card-image width="100%">
-        <img src="@/assets/images/face.jpg" alt="pres" >
-      </v-card-image>
+              <p>  Our events will feature a variety of speakers and activities that will explore the many different aspects of human rights. We'll learn about the history of human rights, the challenges that still exist today, and what we can do to make a difference.</p>
 
-      <v-card-text>
-        <h1>Chris Mahan</h1>
-        <p :style="{ marginTop: '20px' }">The DAMA Wheel is a model that describes the data management knowledge and skills required for data management professionals in 12 sections: Data Architecture, Data Governance & Quality, Data Security, Data Modeling & Design, Data Warehousing & Business Intelligence, Data Analytics, Data Integration, Data Stewardship, Data Engineering, Data Science, 
-          Data Ethics, Data Literacy, and Data Culture.</p>
-          <p>The DAMA Wheel is a valuable resource for data professionals of all levels, and it can be used to assess one's current skills and knowledge, identify areas for improvement, and develop a plan for professional development.
-        </p>
-      </v-card-text>
-    </v-card>
-  </v-carousel-item>
+              <p> We hope that you'll join us for these important events. Together, we can make South Dakota a more just and equitable place for everyone.</p>
+              </v-card-text>
+              <v-card-text>
+          </v-card-text>
+            <v-subheader>Upcoming Events</v-subheader>
+            <v-calendar :events="eventList">
+              <v-for="event in eventList" :key="event.name" :name="event.name" :start="event.start" :end="event.end"
+                :location="event.location" :description="event.description" />
+              <!-- <v-link :href="event.registerLink">Register</v-link> -->
+              <template v-if="eventList.length === 0">
+                <p>There are no upcoming events.</p>
+              </template>
+            </v-calendar>
 
-            <v-carousel-item>
-              <v-card :style="{ display: 'flex', flex: 1 }">
-      <v-card-image width="100%">
-        <img src="@/assets/images/face.jpg" alt="pres" >
-      </v-card-image>
-
-      <v-card-text>
-        <h1>Chris Mahan</h1>
-        <p :style="{ marginTop: '20px' }">The DAMA Wheel is a model that describes the data management knowledge and skills required for data management professionals in 12 sections: Data Architecture, Data Governance & Quality, Data Security, Data Modeling & Design, Data Warehousing & Business Intelligence, Data Analytics, Data Integration, Data Stewardship, Data Engineering, Data Science, 
-          Data Ethics, Data Literacy, and Data Culture.</p>
-          <p>The DAMA Wheel is a valuable resource for data professionals of all levels, and it can be used to assess one's current skills and knowledge, identify areas for improvement, and develop a plan for professional development.
-        </p>
-      </v-card-text>
-    </v-card>
-            </v-carousel-item>
-            <v-carousel-item>
-              <v-card :style="{ display: 'flex', flex: 1 }">
-      <v-card-image width="100%">
-        <img src="@/assets/images/face.jpg" alt="pres" >
-      </v-card-image>
-
-      <v-card-text>
-        <h1>Chris Mahan</h1>
-        <p :style="{ marginTop: '20px' }">The DAMA Wheel is a model that describes the data management knowledge and skills required for data management professionals in 12 sections: Data Architecture, Data Governance & Quality, Data Security, Data Modeling & Design, Data Warehousing & Business Intelligence, Data Analytics, Data Integration, Data Stewardship, Data Engineering, Data Science, 
-          Data Ethics, Data Literacy, and Data Culture.</p>
-          <p>The DAMA Wheel is a valuable resource for data professionals of all levels, and it can be used to assess one's current skills and knowledge, identify areas for improvement, and develop a plan for professional development.
-        </p>
-      </v-card-text>
-    </v-card>
-            </v-carousel-item>
-            <v-carousel-item>
-              <v-card :style="{ display: 'flex', flex: 1 }">
-      <v-card-image width="100%">
-        <img src="@/assets/images/face.jpg" alt="pres" >
-      </v-card-image>
-
-      <v-card-text>
-        <h1>Chris Mahan</h1>
-        <p :style="{ marginTop: '20px' }">The DAMA Wheel is a model that describes the data management knowledge and skills required for data management professionals in 12 sections: Data Architecture, Data Governance & Quality, Data Security, Data Modeling & Design, Data Warehousing & Business Intelligence, Data Analytics, Data Integration, Data Stewardship, Data Engineering, Data Science, 
-          Data Ethics, Data Literacy, and Data Culture.</p>
-          <p>The DAMA Wheel is a valuable resource for data professionals of all levels, and it can be used to assess one's current skills and knowledge, identify areas for improvement, and develop a plan for professional development.
-        </p>
-      </v-card-text>
-    </v-card>
-            </v-carousel-item>
-          </v-carousel>
-        </v-card>
+          </v-card>
         </v-col>
       </v-row>
+
+      <v-row>
+        <v-col cols="12">
+          <v-card-title>Become a Sponsor<v-btn color="primary" dark class="mx-auto">Sponsor</v-btn></v-card-title>
+          <v-card-text>These companies have demonstrated a high level of commitment to equality. Please consider supporting those that support us.
+          </v-card-text>
+          <v-carousel height="auto" width="100%" :cycle="true">
+            
+            <v-carousel-item>
+              <v-card class="sponsor-card" style="display: flex; flex: 1" >
+      <v-container>
+        <img width="25%" height="315" src="@/assets/images/Nuwec.png" frameborder="0" allowfullscreen id="player">
+      </v-container>
+
+      <v-card-text>
+        <span>Nuwec</span>
+        <p style="margin-top: 20px">
+          At Nuwec, we believe that data is the key to success in today's digital world. That's why we offer a comprehensive suite of data management and IT services to help clients of all sizes harness the power of their data to drive growth and innovation.
+       </p>
+      </v-card-text>
+    </v-card>
+            </v-carousel-item>
+
+            <v-carousel-item>
+              <v-card class="sponsor-card" style="display: flex; flex: 1">
+      <v-container>
+        <img width="25%" height="315" src="@/assets/images/Nuwec.png" frameborder="0" allowfullscreen id="player">
+      </v-container>
+
+      <v-card-text>
+        <span>Nuwec</span>
+        <p style="margin-top: 20px">
+          At NuWec, we believe that data is the key to success in today's digital world. That's why we offer a comprehensive suite of data management and IT services to help clients of all sizes harness the power of their data to drive growth and innovation.
+       </p>
+      </v-card-text>
+    </v-card>
+            </v-carousel-item>
+
+          </v-carousel>
+        </v-col>
+      </v-row>
+
+      <v-row>
+  <v-col cols="12">
+    <v-card>
+      <v-card-title>Helpfull Links</v-card-title>
+      <v-card-text>
+        <v-list>
+          <v-list-item link :to="{ href: 'https://www.un.org/en/global-issues/human-rights' }">
+            <span>United Nations Human Rights</span>
+          </v-list-item>
+          <v-divider />
+          <v-list-item link :to="{ href: 'https://www.humanrights.com/' }">
+            <span>Human Rights</span>
+          </v-list-item>
+          <v-divider />
+          <v-list-item link :to="{ href: 'https://www.hrc.org/' }">
+            <span>Human Rights Campaign</span>
+          </v-list-item>
+        </v-list>
+      </v-card-text>
+    </v-card>
+  </v-col>
+</v-row>
+
+
     </v-container>
+
   </v-app>
 </template>
 
-<style>
-@import '@/assets/style.css';
-</style>
+<style>@import '@/assets/style.css';</style>
 
 <script>
 export default {
@@ -235,3 +239,4 @@ export default {
   }
 }
 </script>
+
