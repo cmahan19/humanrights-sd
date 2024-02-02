@@ -1,4 +1,4 @@
-# dama-sd
+# humanrights-sd
 
 ## Build Setup
 
